@@ -1,0 +1,1519 @@
+fileFormatVersion: 2
+guid: 0816e349862513f4cb008ddb9b37a46f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2385649141643499013
+    second: red-apple 1_0
+  - first:
+      213: 6056815778031263938
+    second: red-apple 1_1
+  - first:
+      213: 2773719563888014581
+    second: red-apple 1_2
+  - first:
+      213: 8993232487734283818
+    second: red-apple 1_3
+  - first:
+      213: 6711880192586821423
+    second: red-apple 1_4
+  - first:
+      213: 6107362708905535562
+    second: red-apple 1_5
+  - first:
+      213: -5851985463337881570
+    second: red-apple 1_6
+  - first:
+      213: -7725447920102773250
+    second: red-apple 1_7
+  - first:
+      213: 2091648649816619370
+    second: red-apple 1_8
+  - first:
+      213: 7362061323522630823
+    second: red-apple 1_9
+  - first:
+      213: -6287626317033621993
+    second: red-apple 1_10
+  - first:
+      213: -2975795907853550720
+    second: red-apple 1_11
+  - first:
+      213: -4973690809370176935
+    second: red-apple 1_12
+  - first:
+      213: 748751608340025428
+    second: red-apple 1_13
+  - first:
+      213: -624214618664504798
+    second: red-apple 1_14
+  - first:
+      213: 5753996626376123020
+    second: red-apple 1_15
+  - first:
+      213: -6652242667478213883
+    second: red-apple 1_16
+  - first:
+      213: -5270609122450475269
+    second: red-apple 1_17
+  - first:
+      213: 5845474128544560263
+    second: red-apple 1_18
+  - first:
+      213: 4633720853790657417
+    second: red-apple 1_19
+  - first:
+      213: 7832603303535750170
+    second: red-apple 1_20
+  - first:
+      213: -8941948943046259791
+    second: red-apple 1_21
+  - first:
+      213: 7622406061736751081
+    second: red-apple 1_22
+  - first:
+      213: 1110171452013771798
+    second: red-apple 1_23
+  - first:
+      213: 6404652642683358547
+    second: red-apple 1_24
+  - first:
+      213: 4399163880149385262
+    second: red-apple 1_25
+  - first:
+      213: 3601593904122970830
+    second: red-apple 1_26
+  - first:
+      213: 8646704706358467390
+    second: red-apple 1_27
+  - first:
+      213: 4345731627898986201
+    second: red-apple 1_28
+  - first:
+      213: -2394448155857116107
+    second: red-apple 1_29
+  - first:
+      213: -6332349826956738672
+    second: red-apple 1_30
+  - first:
+      213: -2685028800026485725
+    second: red-apple 1_31
+  - first:
+      213: 3521486805095375482
+    second: red-apple 1_32
+  - first:
+      213: -6110257270582476117
+    second: red-apple 1_33
+  - first:
+      213: -4788144611045970790
+    second: red-apple 1_34
+  - first:
+      213: 1501953445519799193
+    second: red-apple 1_35
+  - first:
+      213: 5730891938325509326
+    second: red-apple 1_36
+  - first:
+      213: 3711143396152990236
+    second: red-apple 1_37
+  - first:
+      213: -5556956859426049942
+    second: red-apple 1_38
+  - first:
+      213: -2042725254186982672
+    second: red-apple 1_39
+  - first:
+      213: -8337806734941265326
+    second: red-apple 1_40
+  - first:
+      213: 7973288238542410376
+    second: red-apple 1_41
+  - first:
+      213: 6057108316626899356
+    second: red-apple 1_42
+  - first:
+      213: -1222828031196543830
+    second: red-apple 1_43
+  - first:
+      213: -6829894006844319837
+    second: red-apple 1_44
+  - first:
+      213: 2040297041449014927
+    second: red-apple 1_45
+  - first:
+      213: 2513902568208589146
+    second: red-apple 1_46
+  - first:
+      213: -6942622633464282830
+    second: red-apple 1_47
+  - first:
+      213: 1225556790000061036
+    second: red-apple 1_48
+  - first:
+      213: 2128618716933947234
+    second: red-apple 1_49
+  - first:
+      213: 5970001085243675573
+    second: red-apple 1_50
+  - first:
+      213: 3871692799364422530
+    second: red-apple 1_51
+  - first:
+      213: -1398075113794323032
+    second: red-apple 1_52
+  - first:
+      213: 3916585450507804239
+    second: red-apple 1_53
+  - first:
+      213: -3807006110519538560
+    second: red-apple 1_54
+  - first:
+      213: -1852522086004258161
+    second: red-apple 1_55
+  - first:
+      213: -7978848906361369932
+    second: red-apple 1_56
+  - first:
+      213: 5663131807807960320
+    second: red-apple 1_57
+  - first:
+      213: 1344909201701619233
+    second: red-apple 1_58
+  - first:
+      213: 1881611118417169958
+    second: red-apple 1_59
+  - first:
+      213: 8964812079371488686
+    second: red-apple 1_60
+  - first:
+      213: -2753928539485884154
+    second: red-apple 1_61
+  - first:
+      213: 146655367051339455
+    second: red-apple 1_62
+  - first:
+      213: -4411493476285038793
+    second: red-apple 1_63
+  - first:
+      213: -2818003032401777502
+    second: red-apple 1_64
+  - first:
+      213: -2884928073912711602
+    second: red-apple 1_65
+  - first:
+      213: 2691889397910805869
+    second: red-apple 1_66
+  - first:
+      213: 5573857619627563582
+    second: red-apple 1_67
+  - first:
+      213: -8044281919246207741
+    second: red-apple 1_68
+  - first:
+      213: -3412666066091448083
+    second: red-apple 1_69
+  - first:
+      213: 1561310503352139301
+    second: red-apple 1_70
+  - first:
+      213: -3933155629783424551
+    second: red-apple 1_71
+  - first:
+      213: -8017141586230826770
+    second: red-apple 1_72
+  - first:
+      213: 8627115176910732079
+    second: red-apple 1_73
+  - first:
+      213: 7048957688808583956
+    second: red-apple 1_74
+  - first:
+      213: 4039789650405215600
+    second: red-apple 1_75
+  - first:
+      213: 8208748926263623660
+    second: red-apple 1_76
+  - first:
+      213: -942297723322945669
+    second: red-apple 1_77
+  - first:
+      213: 4007011279388112308
+    second: red-apple 1_78
+  - first:
+      213: -572501767241976359
+    second: red-apple 1_79
+  - first:
+      213: 4467715064912575740
+    second: red-apple 1_80
+  - first:
+      213: -207356624621149681
+    second: red-apple 1_81
+  - first:
+      213: -6762222308337898793
+    second: red-apple 1_82
+  - first:
+      213: -2672887448600027174
+    second: red-apple 1_83
+  - first:
+      213: -4346707426905390458
+    second: red-apple 1_84
+  - first:
+      213: -2580086699243277649
+    second: red-apple 1_85
+  - first:
+      213: 7968075213097449727
+    second: red-apple 1_86
+  - first:
+      213: -4212683230789098787
+    second: red-apple 1_87
+  - first:
+      213: -3854906032216480245
+    second: red-apple 1_88
+  - first:
+      213: 6147003396489237486
+    second: red-apple 1_89
+  - first:
+      213: 1694746043380592311
+    second: red-apple 1_90
+  - first:
+      213: 1816633539086061473
+    second: red-apple 1_91
+  - first:
+      213: -7997472507541073029
+    second: red-apple 1_92
+  - first:
+      213: -5994114024106581604
+    second: red-apple 1_93
+  - first:
+      213: -7759006742655009175
+    second: red-apple 1_94
+  - first:
+      213: 4356086099224522224
+    second: red-apple 1_95
+  - first:
+      213: -971360951703955781
+    second: red-apple 1_96
+  - first:
+      213: -529452642117666029
+    second: red-apple 1_97
+  - first:
+      213: -5490344710887943554
+    second: red-apple 1_98
+  - first:
+      213: 65068093418349158
+    second: red-apple 1_99
+  - first:
+      213: -8340744656964986081
+    second: red-apple 1_100
+  - first:
+      213: 3206511385220210526
+    second: red-apple 1_101
+  - first:
+      213: 1996543643770831271
+    second: red-apple 1_102
+  - first:
+      213: 2776739965906337563
+    second: red-apple 1_103
+  - first:
+      213: 4041270570401874992
+    second: red-apple 1_104
+  - first:
+      213: -6099758730430878392
+    second: red-apple 1_105
+  - first:
+      213: 7280939749788716581
+    second: red-apple 1_106
+  - first:
+      213: -7050746593602750629
+    second: red-apple 1_107
+  - first:
+      213: -8219422787662500392
+    second: red-apple 1_108
+  - first:
+      213: -3134005806700559803
+    second: red-apple 1_109
+  - first:
+      213: 6054165462547644655
+    second: red-apple 1_110
+  - first:
+      213: 7539218075736320920
+    second: red-apple 1_111
+  - first:
+      213: 450689338628242907
+    second: red-apple 1_112
+  - first:
+      213: 3513272996181367538
+    second: red-apple 1_113
+  - first:
+      213: 3981234581444206956
+    second: red-apple 1_114
+  - first:
+      213: 5378083085255693654
+    second: red-apple 1_115
+  - first:
+      213: -5977583693339293522
+    second: red-apple 1_116
+  - first:
+      213: 2934866819719959095
+    second: red-apple 1_117
+  - first:
+      213: -2386881828520083452
+    second: red-apple 1_118
+  - first:
+      213: 1513939343016795274
+    second: red-apple 1_119
+  - first:
+      213: -2967788182483780253
+    second: red-apple 1_120
+  - first:
+      213: 5523293727695190938
+    second: red-apple 1_121
+  - first:
+      213: -6653134703319980481
+    second: red-apple 1_122
+  - first:
+      213: -4116851168343013805
+    second: red-apple 1_123
+  - first:
+      213: 7158535499412833734
+    second: red-apple 1_124
+  - first:
+      213: -2225313808660077490
+    second: red-apple 1_125
+  - first:
+      213: 8257902435411299601
+    second: red-apple 1_126
+  - first:
+      213: -3686946094370895125
+    second: red-apple 1_127
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: red-apple 1_0
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 801
+        width: 80
+        height: 92
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9af91deb874eed0800000000000000
+      internalID: -2385649141643499013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_1
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 801
+        width: 80
+        height: 93
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0e8871cd12e0450800000000000000
+      internalID: 6056815778031263938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_2
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 801
+        width: 81
+        height: 92
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4b8106f3b3e7620800000000000000
+      internalID: 2773719563888014581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_3
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 801
+        width: 80
+        height: 92
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e87e5ac416ecc70800000000000000
+      internalID: 8993232487734283818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_4
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 682
+        width: 70
+        height: 90
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f2e1e5973652d50800000000000000
+      internalID: 6711880192586821423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_5
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 682
+        width: 80
+        height: 93
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4828ca8606b1c450800000000000000
+      internalID: 6107362708905535562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_6
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 682
+        width: 74
+        height: 91
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10fefae93299cea0800000000000000
+      internalID: -5851985463337881570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_7
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 682
+        width: 68
+        height: 90
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd6e7f3c02b9c490800000000000000
+      internalID: -7725447920102773250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_8
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 682
+        width: 96
+        height: 93
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69be3f6d57070d10800000000000000
+      internalID: 2091648649816619370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_9
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 682
+        width: 83
+        height: 91
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4653394cb4b2660800000000000000
+      internalID: 7362061323522630823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_10
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 550
+        width: 81
+        height: 93
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71630dc8d2dddb8a0800000000000000
+      internalID: -6287626317033621993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_11
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 550
+        width: 78
+        height: 88
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bf3546369d3b6d0800000000000000
+      internalID: -2975795907853550720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_12
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 551
+        width: 78
+        height: 98
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9529dd48f86e9fab0800000000000000
+      internalID: -4973690809370176935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_13
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 551
+        width: 87
+        height: 103
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4501c18ee99146a00800000000000000
+      internalID: 748751608340025428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_14
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 550
+        width: 100
+        height: 86
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22275ee8c185657f0800000000000000
+      internalID: -624214618664504798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_15
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 425
+        width: 80
+        height: 93
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82e1f9127d4adf40800000000000000
+      internalID: 5753996626376123020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_16
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 425
+        width: 78
+        height: 88
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b934df98c7ea3a0800000000000000
+      internalID: -6652242667478213883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_17
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 425
+        width: 78
+        height: 88
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6f7629de80bd6b0800000000000000
+      internalID: -5270609122450475269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_18
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 425
+        width: 95
+        height: 93
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78472afcfbb4f1150800000000000000
+      internalID: 5845474128544560263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_19
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 425
+        width: 68
+        height: 93
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b0386e0984e4040800000000000000
+      internalID: 4633720853790657417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_20
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 427
+        width: 81
+        height: 89
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1cacc5a43ff2bc60800000000000000
+      internalID: 7832603303535750170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_21
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 427
+        width: 81
+        height: 89
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb4c0210d0d7e380800000000000000
+      internalID: -8941948943046259791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_22
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 384
+        width: 14
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef6a9b8de938c960800000000000000
+      internalID: 7622406061736751081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_23
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 286
+        width: 105
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c7f0dbd0f186f00800000000000000
+      internalID: 1110171452013771798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_24
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 382
+        width: 15
+        height: 15
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d88ec25a5e1e850800000000000000
+      internalID: 6404652642683358547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_25
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 382
+        width: 15
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e208801cd38fc0d30800000000000000
+      internalID: 4399163880149385262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_26
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 373
+        width: 15
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec24670e29e6bf130800000000000000
+      internalID: 3601593904122970830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_27
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 283
+        width: 109
+        height: 121
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bd1344e144ff770800000000000000
+      internalID: 8646704706358467390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_28
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 369
+        width: 14
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de591214e32f4c30800000000000000
+      internalID: 4345731627898986201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_29
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 369
+        width: 15
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5342c0da61635ced0800000000000000
+      internalID: -2394448155857116107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_30
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 278
+        width: 107
+        height: 122
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fbcb2f169fe18a0800000000000000
+      internalID: -6332349826956738672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_31
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 287
+        width: 85
+        height: 89
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c5ab2488cdcbad0800000000000000
+      internalID: -2685028800026485725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_32
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 287
+        width: 85
+        height: 91
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a726fe27795ded030800000000000000
+      internalID: 3521486805095375482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_33
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 287
+        width: 88
+        height: 89
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba20facc261043ba0800000000000000
+      internalID: -6110257270582476117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_34
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 156
+        width: 81
+        height: 96
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c676d48d71d8db0800000000000000
+      internalID: -4788144611045970790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_35
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 157
+        width: 69
+        height: 95
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993b16573b208d410800000000000000
+      internalID: 1501953445519799193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_36
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 156
+        width: 81
+        height: 96
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4ba06bad7388f40800000000000000
+      internalID: 5730891938325509326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_37
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 192
+        width: 20
+        height: 17
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a5c3e9141a08330800000000000000
+      internalID: 3711143396152990236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_38
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 157
+        width: 85
+        height: 95
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a607db9ad29b1e2b0800000000000000
+      internalID: -5556956859426049942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_39
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 157
+        width: 80
+        height: 92
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f227724438c6a3e0800000000000000
+      internalID: -2042725254186982672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_40
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 156
+        width: 101
+        height: 94
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25267fd33f82a4c80800000000000000
+      internalID: -8337806734941265326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_41
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 156
+        width: 100
+        height: 94
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882de1e986fc6ae60800000000000000
+      internalID: 7973288238542410376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_42
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 29
+        width: 80
+        height: 92
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c915c9a0ceb2f0450800000000000000
+      internalID: 6057108316626899356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_43
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 28
+        width: 101
+        height: 94
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4c32b6264a70fe0800000000000000
+      internalID: -1222828031196543830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_44
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 28
+        width: 86
+        height: 95
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7997c46975731a0800000000000000
+      internalID: -6829894006844319837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_45
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 28
+        width: 91
+        height: 88
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8659d76957905c10800000000000000
+      internalID: 2040297041449014927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_46
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 28
+        width: 92
+        height: 75
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51e30a011d23e220800000000000000
+      internalID: 2513902568208589146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-apple 1_47
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 24
+        width: 95
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23146ca9f79d6af90800000000000000
+      internalID: -6942622633464282830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

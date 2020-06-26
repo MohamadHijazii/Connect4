@@ -1,0 +1,22 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Ai
+{
+    public int depth;
+    public Node root;
+
+    public Ai(int d)
+    {
+        depth = d;
+    }
+
+
+    public int getNextPlay(Board board)
+    {
+        root = new Node(board, false);
+        root.BuildTree(depth);
+        return root.getMaxChild();
+    }
+}
