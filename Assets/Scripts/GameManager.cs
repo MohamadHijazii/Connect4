@@ -4,9 +4,12 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using Coin = Board.Coin;
+using Unity.Jobs;
 
 public class GameManager : MonoBehaviour
 {
+    public TextMeshProUGUI noPrun, prun;
+
     public GameObject []pieces;
     public int[] places = new int []{35, 36, 37, 38, 39, 40, 41};
     Board board;
@@ -19,12 +22,17 @@ public class GameManager : MonoBehaviour
     public GameObject winPannel;
     public TextMeshProUGUI win,lose,draw;
 
+    public Apple apple;
+
+    public Stack<State> states;
+
     //the color of the ai is yellow and the player is red
 
     public static bool playerStartsFirst = true;
 
     private void Start()
     {
+        states = new Stack<State>();
         turn = Coin.yellow;
         if (playerStartsFirst) switchTurns();
         board = new Board(turn);
@@ -50,9 +58,43 @@ public class GameManager : MonoBehaviour
         switchTurns();
         if(turn == Coin.yellow && !board.end)
         {
+            apple.startThinking();
             ai.play();
+            apple.stopThinking();
         }
+        noPrun.text = $"Nodes:\n{Node.sumOf7(ai.depth)}";
+        prun.text = $"After Prun:\n{Node.nb}";
+        states.Push(new State(board,col));
 
+    }
+
+    public void Undo()
+    {
+        states.Pop();
+        Board board = states.Pop().GetBoard();
+        this.board = board.Clone();
+        for(int i = 0; i < 42; i++)
+        {
+            Image image = pieces[i].GetComponent<Image>();
+            if(board.pieces[i] == Coin.empty)
+            {
+                image.color = Color.white;
+            }
+            if (board.pieces[i] == Coin.red)
+            {
+                image.color = Color.red;
+            }
+            if (board.pieces[i] == Coin.yellow)
+            {
+                image.color = Color.yellow;
+            }
+
+        }
+        for(int i = 0; i < 7; i++)
+        {
+            places[i] = board.places[i];
+        }
+        //switchTurns();
     }
 
     public void EndTheGame()
@@ -61,18 +103,20 @@ public class GameManager : MonoBehaviour
         if(winner == Coin.empty)
         {
             draw.gameObject.SetActive(true);
+            apple.draw();
         }
         else
         {
             if(winner == Coin.red)
             {
                 win.gameObject.SetActive(true);
+                apple.lose();
 
             }
             else
             {
                 lose.gameObject.SetActive(true);
-
+                apple.win();
             }
         }
         winPannel.SetActive(true);
@@ -85,7 +129,7 @@ public class GameManager : MonoBehaviour
 
     public static void log(string s)
     {
-        Debug.Log(s);
+        //Debug.Log(s);
     }
 
     public void switchTurns()

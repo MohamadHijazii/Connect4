@@ -40,12 +40,13 @@ public class Board
         int place = places[col];
         if (place < 0)
         {
-            Debug.Log($"-> Column {col} is full");
             return false;
         }
         places[col] -= 7;
         pieces[place] = turn;
         checkWin();
+        if(!end)
+            checkDraw();
         switchTurns();
         return end;
     }
@@ -64,11 +65,11 @@ public class Board
         {
             if (places[i] > 0)
             {
-                end = true;
-                winner = Coin.empty;
                 return false;
             }
         }
+        end = true;
+        winner = Coin.empty;
         return true;
     }
 
@@ -311,8 +312,8 @@ public class Board
 
     public enum Coin
     {
-        empty,
-        red,
-        yellow
+        empty = 0,
+        red = 1,
+        yellow = 2
     }
 }

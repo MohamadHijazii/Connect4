@@ -4,15 +4,31 @@ using UnityEngine;
 
 public class Apple : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Animator animator;
+
+    public void startThinking()
     {
-        
+        animator.SetBool("think", true);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void stopThinking()
     {
-        
+        animator.SetBool("think", false);
+
+    }
+
+    public void win()
+    {
+        animator.SetInteger("endgame", 1);
+    }
+
+    public void lose()
+    {
+        animator.SetInteger("endgame", -1);
+    }
+
+    public void draw()
+    {
+        animator.SetInteger("endgame", -1);
     }
 }

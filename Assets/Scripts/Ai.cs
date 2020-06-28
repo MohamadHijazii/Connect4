@@ -15,7 +15,7 @@ public class Ai
 
     public int getNextPlay(Board board)
     {
-        root = new Node(board, false);
+        root = new Node(null,board, false);
         root.BuildTree(depth);
         return root.getMaxChild();
     }
