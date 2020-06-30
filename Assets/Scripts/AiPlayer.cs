@@ -14,7 +14,6 @@ public class AiPlayer : MonoBehaviour
 
     void Start()
     {
-        ai = new Ai(depth);
         
     }
 
@@ -23,12 +22,22 @@ public class AiPlayer : MonoBehaviour
         StartCoroutine(_play());
     }
 
+    public void InitializeAi()
+    {
+        ai = new Ai(depth);
+    }
+
     public IEnumerator _play()
     {
         Node.nb = 0;
+        if(ai == null)
+        {
+            InitializeAi();
+        }
         n = ai.getNextPlay(manager.getCurrentBoard());
         Debug.Log($"Ai plays {n}");
         Debug.Log($"Number of nodes created is {Node.nb}");
+        Debug.Log($"=> {depth}");
         manager.drop(n);
         yield return new WaitForSeconds(0.1f);
     }

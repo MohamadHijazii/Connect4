@@ -81,11 +81,13 @@ public class Node
 
         if (ismax)
         {
-            parent.beta = alpha;
+            if(parent != null)
+                parent.beta = alpha;
         }
         else
         {
-            parent.alpha = beta;
+            if (parent != null)
+                parent.alpha = beta;
         }
     }
 

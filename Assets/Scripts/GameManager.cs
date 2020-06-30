@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 using Coin = Board.Coin;
 using Unity.Jobs;
 
@@ -28,7 +29,8 @@ public class GameManager : MonoBehaviour
 
     //the color of the ai is yellow and the player is red
 
-    public static bool playerStartsFirst = true;
+    public static bool playerStartsFirst = false;
+    public static int difficulty;
 
     private void Start()
     {
@@ -36,6 +38,14 @@ public class GameManager : MonoBehaviour
         turn = Coin.yellow;
         if (playerStartsFirst) switchTurns();
         board = new Board(turn);
+        ai.depth = difficulty;
+        ai.InitializeAi();
+        Debug.Log($"d:{difficulty} ,ai:{ai.depth}");
+        if (!playerStartsFirst)
+        {
+            ai.play();
+            //switchTurns();
+        }
 
     }
 
@@ -129,7 +139,7 @@ public class GameManager : MonoBehaviour
 
     public static void log(string s)
     {
-        //Debug.Log(s);
+        Debug.Log(s);
     }
 
     public void switchTurns()
@@ -150,5 +160,10 @@ public class GameManager : MonoBehaviour
     public Color GetColor()
     {
         return turn == Coin.red ? Color.red : Color.yellow;
+    }
+
+    public void Home()
+    {
+        SceneManager.LoadScene(0);
     }
 }

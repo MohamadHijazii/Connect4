@@ -17,6 +17,7 @@ public class Ai
     {
         root = new Node(null,board, false);
         root.BuildTree(depth);
+        GameManager.log("--> " + depth);
         return root.getMaxChild();
     }
 }
