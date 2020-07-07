@@ -1,2 +1,3 @@
-# Connect4
- 
+Dear all,
+you can find the code of minimax tree in the class node, and i will send a report that describes the project by email.
+Regards...
