@@ -5,7 +5,7 @@ using UnityEngine;
 public class Board
 {
     public Coin[] pieces;       //piece number 0 is at the top left
-    public int []places;
+    public int[] places;
 
     public Coin winner = Coin.empty;
     public bool end = false;
@@ -16,12 +16,12 @@ public class Board
     {
         turn = firstToStart;
         pieces = new Coin[42];
-        for(int i = 0; i < pieces.Length; i++)
+        for (int i = 0; i < pieces.Length; i++)
         {
             pieces[i] = Coin.empty;
         }
-        places = new int[] { 35,36,37,38,39,40,41};
-        
+        places = new int[] { 35, 36, 37, 38, 39, 40, 41 };
+
     }
 
     public Board()
@@ -45,7 +45,7 @@ public class Board
         places[col] -= 7;
         pieces[place] = turn;
         checkWin();
-        if(!end)
+        if (!end)
             checkDraw();
         switchTurns();
         return end;
@@ -57,11 +57,13 @@ public class Board
     {
         checkWinHorizontal();
         checkWinVertical();
+        checkWinOblique1();
+        checkWinOblique2();
     }
 
     public bool checkDraw()
     {
-        for(int i = 0; i < 7; i++)
+        for (int i = 0; i < 7; i++)
         {
             if (places[i] > 0)
             {
@@ -95,7 +97,7 @@ public class Board
                 return;
             }
             i++;
-            if(i%7 == 4)
+            if (i % 7 == 4)
             {
                 i += 3;
             }
@@ -112,7 +114,7 @@ public class Board
                 i--;
                 continue;
             }
-            if (pieces[i] == pieces[i-7] && pieces[i-7] == pieces[i-14] && pieces[i-14] == pieces[i - 21])
+            if (pieces[i] == pieces[i - 7] && pieces[i - 7] == pieces[i - 14] && pieces[i - 14] == pieces[i - 21])
             {
                 winner = pieces[i];
                 end = true;
@@ -125,11 +127,49 @@ public class Board
     void checkWinOblique1()
     {
         int i = 0;
-        while(i < 42)
+        while (i < 42)
         {
+            if (i % 7 != 6 && i <= 34 && (i + 8) % 7 != 6 && (i + 8) <= 34 && (i + 16) % 7 != 6 && (i + 16) <= 34)
+            {
+                if (pieces[i] == Coin.empty)
+                {
+                    i++;
+                    continue;
+                }
+                if (pieces[i] == pieces[i + 8] && pieces[i + 8] == pieces[i + 16] && pieces[i + 16] == pieces[i + 24])
+                {
+                    winner = pieces[i];
+                    end = true;
+                    return;
+                }
+            }
             i++;
         }
     }
+
+    void checkWinOblique2()
+    {
+        int i = 0;
+        while (i < 42)
+        {
+            if (i % 7 != 0 && i <= 34 && (i + 6) % 7 != 0 && (i + 6) <= 34 && (i + 12) % 7 != 0 && (i + 12) <= 34)
+            {
+                if (pieces[i] == Coin.empty)
+                {
+                    i++;
+                    continue;
+                }
+                if (pieces[i] == pieces[i + 6] && pieces[i + 6] == pieces[i + 12] && pieces[i + 12] == pieces[i + 18])
+                {
+                    winner = pieces[i];
+                    end = true;
+                    return;
+                }
+            }
+            i++;
+        }
+    }
+
     #endregion
 
 
@@ -137,7 +177,7 @@ public class Board
 
     public int Evaluate()
     {
-        return EvaluateHorizontaly() + EvaluateVertically();
+        return EvaluateHorizontaly() + EvaluateVertically() + EvaluateOblique1() + EvaluateOblique2();
     }
 
     public int EvaluateHorizontaly()
@@ -168,7 +208,7 @@ public class Board
                     temp = 3;
                 }
             }   //check for 2 when first is empty
-            if(pieces[i+1] == Coin.yellow || pieces[i+2] == Coin.yellow)
+            if (pieces[i + 1] == Coin.yellow || pieces[i + 2] == Coin.yellow)
             {
                 score += temp;
             }
@@ -204,7 +244,7 @@ public class Board
                     temp = 7;
                 }
 
-                
+
             }   //check for 3 
 
             {
@@ -269,6 +309,155 @@ public class Board
         if (pieces[24] == Coin.red || pieces[17] == Coin.red || pieces[10] == Coin.red)
             return 0;
         return 5;
+    }
+
+    public int EvaluateOblique1()
+    {
+        int score = 0;
+        int i = 0;
+        while (i < 42)
+        {
+            int t = 0;
+            if (i % 7 != 6 && i <= 34 && (i + 8) % 7 != 6 && (i + 8) <= 34 && (i + 16) % 7 != 6 && (i + 16) <= 34)
+            {
+                if (pieces[i+8] == pieces[i +16] && pieces[i + 16] == pieces[i + 24] && pieces[i] == Coin.empty)
+            {
+                t += 7;
+            }
+
+            if (pieces[i] == Coin.empty && pieces[i+8] == pieces[i+16] && pieces[i + 24] == Coin.empty)
+            {
+                t += 3;
+            }
+
+            if (pieces[i] == Coin.empty && pieces[i + 8] == pieces[i + 24] && pieces[i + 16] == Coin.empty)
+            {
+                t += 3;
+            }
+
+            if (pieces[i] == Coin.empty && pieces[i + 16] == pieces[i + 24] && pieces[i + 8] == Coin.empty)
+            {
+                t += 3;
+            }
+
+            if (pieces[i] == Coin.empty)
+            {
+                i++;
+                continue;
+            }
+                //3 in a row
+                {
+                    if (pieces[i] == pieces[i + 8] && pieces[i + 8] == pieces[i + 16] && pieces[i + 24] == Coin.empty)
+                    {
+                        t += 7;
+                    }
+                    if (pieces[i] == pieces[i + 8] && pieces[i + 8] == pieces[i + 24] && pieces[i + 16] == Coin.empty)
+                    {
+                        t += 7;
+                    }
+                    if (pieces[i] == pieces[i + 16] && pieces[i + 16] == pieces[i + 24] && pieces[i + 8] == Coin.empty)
+                    {
+                        t += 7;
+                    }
+                }
+
+                //2 in a row
+                {
+                    if (pieces[i] == pieces[i + 8] &&pieces[i + 16] == Coin.empty && pieces[i + 24] == Coin.empty)
+                    {
+                        t += 3;
+                    }
+
+                    if (pieces[i] == pieces[i + 16] && pieces[i + 8] == Coin.empty && pieces[i + 24] == Coin.empty)
+                    {
+                        t += 3;
+                    }
+
+                    if (pieces[i] == pieces[i + 24] && pieces[i + 16] == Coin.empty && pieces[i + 24] == Coin.empty)
+                    {
+                        t += 3;
+                    }
+                }
+            }
+            score += pieces[i] == Coin.yellow ? t : -t;
+
+            i++;
+        }
+        return score;
+    }
+
+    public int EvaluateOblique2()
+    {
+        int score = 0;
+        int i = 0;
+        while (i < 42)
+        {
+            int t = 0;
+            if (i % 7 != 0 && i <= 34 && (i + 6) % 7 !=0 && (i +6) <= 34 && (i + 12) % 7 != 0 && (i + 12) <= 34)
+            {
+                if (pieces[i + 6] == pieces[i + 12] && pieces[i + 12] == pieces[i + 18] && pieces[i] == Coin.empty)
+                {
+                    t += 7;
+                }
+
+                if (pieces[i] == Coin.empty && pieces[i + 6] == pieces[i + 12] && pieces[i + 18] == Coin.empty)
+                {
+                    t += 3;
+                }
+
+                if (pieces[i] == Coin.empty && pieces[i + 6] == pieces[i + 18] && pieces[i + 12] == Coin.empty)
+                {
+                    t += 3;
+                }
+
+                if (pieces[i] == Coin.empty && pieces[i + 12] == pieces[i + 18] && pieces[i + 6] == Coin.empty)
+                {
+                    t += 3;
+                }
+
+                if (pieces[i] == Coin.empty)
+                {
+                    i++;
+                    continue;
+                }
+                //3 in a row
+                {
+                    if (pieces[i] == pieces[i + 6] && pieces[i + 6] == pieces[i + 12] && pieces[i + 18] == Coin.empty)
+                    {
+                        t += 7;
+                    }
+                    if (pieces[i] == pieces[i + 6] && pieces[i + 6] == pieces[i + 18] && pieces[i + 12] == Coin.empty)
+                    {
+                        t += 7;
+                    }
+                    if (pieces[i] == pieces[i + 12] && pieces[i + 12] == pieces[i + 18] && pieces[i + 6] == Coin.empty)
+                    {
+                        t += 7;
+                    }
+                }
+
+                //2 in a row
+                {
+                    if (pieces[i] == pieces[i + 6] && pieces[i + 12] == Coin.empty && pieces[i + 18] == Coin.empty)
+                    {
+                        t += 3;
+                    }
+
+                    if (pieces[i] == pieces[i + 12] && pieces[i +6] == Coin.empty && pieces[i + 18] == Coin.empty)
+                    {
+                        t += 3;
+                    }
+
+                    if (pieces[i] == pieces[i + 18] && pieces[i + 12] == Coin.empty && pieces[i + 18] == Coin.empty)
+                    {
+                        t += 3;
+                    }
+                }
+            }
+            score += pieces[i] == Coin.yellow ? t : -t;
+            i++;
+        }
+        return score;
     }
 
     #endregion

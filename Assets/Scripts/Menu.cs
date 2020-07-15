@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class Menu : MonoBehaviour
 {
@@ -11,6 +12,9 @@ public class Menu : MonoBehaviour
 
     public Button easy, medium, hard, goFirst;
     public Sprite empty, check;
+
+    public Slider slider;
+    public TextMeshProUGUI load;
 
     private void Start()
     {
@@ -76,8 +80,24 @@ public class Menu : MonoBehaviour
 
     public void play()
     {
+        slider.gameObject.SetActive(true);
         GameManager.playerStartsFirst = player_go_first;
         GameManager.difficulty = difficulty;
-        SceneManager.LoadScene(1);
+        StartCoroutine(LoadAsync(1));
+        
+    }
+
+    IEnumerator LoadAsync(int n)
+    {
+        AsyncOperation op = SceneManager.LoadSceneAsync(n);
+
+        while (!op.isDone)
+        {
+            float progress = Mathf.Clamp01(op.progress / .9f);
+            slider.value = progress;
+            //load.text = $"{progress * 100}%";
+            yield return null;  
+        }
+
     }
 }
