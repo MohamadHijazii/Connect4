@@ -8,3 +8,5 @@ In our version of Connect 4, you can play vs an AI, the AI has 3 levels (Easy - 
 We used `MinMax` algorithm with `Alpha Beta pruning` to build our tree, and on each move we create the tree and set evaluation points for our ai to play the best move in each turn.
 
 Please check the `class node` to find the code of minimax tree.
+
+Please check the online version https://mohamadhijazi.itch.io/connect-four
