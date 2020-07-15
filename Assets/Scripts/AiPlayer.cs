@@ -35,9 +35,6 @@ public class AiPlayer : MonoBehaviour
             InitializeAi();
         }
         n = ai.getNextPlay(manager.getCurrentBoard());
-        Debug.Log($"Ai plays {n}");
-        Debug.Log($"Number of nodes created is {Node.nb}");
-        Debug.Log($"=> {depth}");
         manager.drop(n);
         yield return new WaitForSeconds(0.1f);
     }

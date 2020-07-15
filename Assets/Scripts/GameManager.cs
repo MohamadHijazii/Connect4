@@ -25,7 +25,6 @@ public class GameManager : MonoBehaviour
 
     public Apple apple;
 
-    public Stack<State> states;
 
     //the color of the ai is yellow and the player is red
 
@@ -34,13 +33,11 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        states = new Stack<State>();
         turn = Coin.yellow;
         if (playerStartsFirst) switchTurns();
         board = new Board(turn);
         ai.depth = difficulty;
         ai.InitializeAi();
-        Debug.Log($"d:{difficulty} ,ai:{ai.depth}");
         if (!playerStartsFirst)
         {
             ai.play();
@@ -72,41 +69,10 @@ public class GameManager : MonoBehaviour
             ai.play();
             apple.stopThinking();
         }
-        noPrun.text = $"Nodes:\n{Node.sumOf7(ai.depth)}";
-        prun.text = $"After Prun:\n{Node.nb}";
-        states.Push(new State(board,col));
 
     }
 
-    public void Undo()
-    {
-        states.Pop();
-        Board board = states.Pop().GetBoard();
-        this.board = board.Clone();
-        for(int i = 0; i < 42; i++)
-        {
-            Image image = pieces[i].GetComponent<Image>();
-            if(board.pieces[i] == Coin.empty)
-            {
-                image.color = Color.white;
-            }
-            if (board.pieces[i] == Coin.red)
-            {
-                image.color = Color.red;
-            }
-            if (board.pieces[i] == Coin.yellow)
-            {
-                image.color = Color.yellow;
-            }
-
-        }
-        for(int i = 0; i < 7; i++)
-        {
-            places[i] = board.places[i];
-        }
-        //switchTurns();
-    }
-
+    
     public void EndTheGame()
     {
         Coin winner = board.winner;
@@ -135,11 +101,6 @@ public class GameManager : MonoBehaviour
     public Board getCurrentBoard()
     {
         return board.Clone();
-    }
-
-    public static void log(string s)
-    {
-        Debug.Log(s);
     }
 
     public void switchTurns()

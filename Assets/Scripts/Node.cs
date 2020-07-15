@@ -34,11 +34,11 @@ public class Node
         {
             if (board.winner == Board.Coin.red)
             {
-                score -= 50;
+                score -= 300;
             }
             if (board.winner == Board.Coin.yellow)
             {
-                score += 75;
+                score += 400;
             }
         }
     }
@@ -103,9 +103,8 @@ public class Node
         try
         {
             max = childs[index].score;
-            for (i = index + 1; i < 7; i++)
+            for (i = index; i < 7; i++)
             {
-                //GameManager.log($"Score at {i} is {childs[i].score}");
                 if (!board.ColumnFullAt(i) && childs[i].score > max)
                 {
                     index = i;
@@ -116,36 +115,12 @@ public class Node
             }
         }catch(Exception ex)
         {
-            GameManager.log($"error at i = {i}, while max is {childs.Count}");
+
         }
         return index;
     }
 
-    public int Min()
-    {
-        int m = int.MaxValue;
-        foreach (var c in childs)
-        {
-            if (c.score < m)
-            {
-                m = c.score;
-            }
-        }
-        return m;
-    }
 
-    public int Max()
-    {
-        int m = int.MinValue;
-        foreach (var c in childs)
-        {
-            if (c.score > m)
-            {
-                m = c.score;
-            }
-        }
-        return m;
-    }
 
     #endregion
 
@@ -156,12 +131,11 @@ public class Node
 
     private void BuildTree(int depth, int maxDepth)       //call it with same values for both
     {
-        if (isLeaf)
+        if (isLeaf) // in case of terminal node or win board or column full
         {
             Evaluate();
             return;
         }
-
         if (depth == 1)     //i am at the last level
         {
             CreateFinalLevel((maxDepth - depth) % 2 == 0);
@@ -184,6 +158,10 @@ public class Node
                 if (!child.isLeaf)
                 {
                     child.board.play(i);
+                }
+                if (child.board.end)
+                {
+                    child.isLeaf = true;
                 }
                 child.BuildTree(depth - 1, maxDepth);
                 if ((maxDepth - depth) % 2 == 0) //max
@@ -218,12 +196,36 @@ public class Node
                 if (parent != null)
                     parent.alpha = beta;
             }
-            //score = (maxDepth - depth) % 2 == 0 ? Max() : Min();
-            //GameManager.log($"Score: {score}");
+            //score = (maxDepth - depth) % 2 == 0 ? Max() : Min();      //bfs
         }
 
     }
 
+    public int Min()
+    {
+        int m = int.MaxValue;
+        foreach (var c in childs)
+        {
+            if (c.score < m)
+            {
+                m = c.score;
+            }
+        }
+        return m;
+    }
+
+    public int Max()
+    {
+        int m = int.MinValue;
+        foreach (var c in childs)
+        {
+            if (c.score > m)
+            {
+                m = c.score;
+            }
+        }
+        return m;
+    }
 
     public static int sumOf7(int depth)
     {
